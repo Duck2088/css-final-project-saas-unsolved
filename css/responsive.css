@@ -1,0 +1,443 @@
+@media (min-width: 1024px) {
+  .main-menu .top-navigation .trigram {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) And (max-width: 1023px) {
+  .main-menu {
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .main-menu .top-navigation ul,
+  .btn-nav {
+    display: none;
+  }
+
+  .header-info {
+    flex-direction: column;
+  }
+  .header-info-content {
+    width: auto;
+    height: 305px;
+  }
+  .header-info-content .header-text {
+    width: 100%;
+    text-align: center;
+  }
+  .header-info-content .header-button {
+    align-self: center;
+  }
+  .header-info .header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .features {
+    width: 100%;
+  }
+  .features .elements .shape {
+    width: 175px;
+  }
+  .features .elements .shape p {
+    text-align: center;
+  }
+  .header-info .logo-display {
+    width: 712px;
+  }
+  .header-info .logo-display .atlassian {
+    top: 10px;
+    left: 287px;
+  }
+
+  .header-info .logo-display .paypal {
+    top: 99px;
+    left: 117px;
+  }
+  .header-info .logo-display .weave {
+    top: 99px;
+    left: 414px;
+  }
+
+  .header-info .logo-display .calendar {
+    top: 209px;
+    left: 517px;
+  }
+
+  .header-info .logo-display .google {
+    top: 10px;
+    left: 110px;
+  }
+  .header-info .logo-display .googles {
+    top: 209px;
+    left: 230px;
+  }
+
+  .header-info .logo-display .asana {
+    top: 10px;
+    left: 553px;
+  }
+
+  .header-info .logo-display .image {
+    animation: none;
+  }
+
+  .pricing {
+    padding-bottom: 60px;
+  }
+  .pricing .pricing-def {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 44px 44px;
+  }
+
+  .pricing .pannel-pricing {
+    width: auto;
+    height: 373px;
+    align-items: center;
+  }
+  .pricing .pannel-pricing .price-month {
+    width: 100%;
+  }
+
+  .pricing .pannel-pricing .price-month .price {
+    justify-content: center;
+  }
+
+  .pricing .pricing-close {
+    width: auto;
+    align-items: center;
+  }
+  .pricing .pricing-close .first-row div,
+  .pricing .pricing-close .sec-row div {
+    width: 335px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+  .contact .contact-info {
+    flex-direction: row;
+    width: 100%;
+    height: 260px;
+    padding: 40px 30px 20px 30px;
+  }
+  .contact .contact-form {
+    width: 100%;
+  }
+  .contact .contact-info .about-contact .cc2 p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contact .contact-form .form-input .button-input button:hover {
+    background-color: #2476ff;
+    color: white;
+    cursor: default;
+    border: none;
+    transition: none;
+  }
+
+  .header-info-content .header-button .btn-play:hover {
+    animation: none;
+    background-color: #2476ff;
+    color: #fff;
+    cursor: default;
+    border: none;
+  }
+  .pricing .pannel-pricing .vid-play .btn-vid:hover {
+    background-color: #2476ff;
+    color: #fff;
+    cursor: default;
+    border: none;
+  }
+  .pricing .pannel-pricing:hover {
+    box-shadow: none;
+    cursor: default;
+  }
+  .contact .contact-form .form-input .form-label label:hover {
+    color: #677788;
+  }
+  .contact .contact-form .form-input {
+    width: 100%;
+  }
+  .contact .contact-form .form-input .form-label label:last-of-type:hover {
+  color: #677788;
+  cursor: default;
+}
+  .contact .contact-form .form-input .form-group,
+  .contact .contact-form .form-input .form-group input[type="text"],
+  .contact .contact-form .form-input .form-group input[type="email"],
+  .contact .contact-form .form-input .form-group select,
+  .contact .contact-form .form-input .form-group textarea {
+    width: 100%;
+  }
+  .contact .contact-form .form-input p {
+    align-self: flex-start;
+  }
+  .footer-content {
+    padding: 80px 30px 40px 30px;
+  }
+  .footer-content {
+    gap: 40px;
+  }
+  .footer-links {
+    flex-direction: column;
+    width: 65%;
+  }
+  .footer-content .footer-logo {
+    width: 40%;
+  }
+  .footer-links .c1,
+  .c2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 80px;
+  }
+  .footer-content .footer-links .link ul li:hover {
+    font-size: 14px;
+    color: #677788;
+    cursor: default;
+  }
+}
+
+@media (min-width: 360px) And (max-width: 767px) {
+  .main-menu {
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .main-menu .top-navigation ul,
+  .btn-nav {
+    display: none;
+  }
+  .header-info {
+    flex-direction: column;
+    padding: 40px 16px 0;
+  }
+  .header-info-content {
+    width: 100%;
+  }
+  .header-info-content .header-text h1 {
+    font-size: 26px;
+  }
+  .header-info-content .header-text {
+    width: 100%;
+    text-align: center;
+  }
+  .header-info-content .header-button {
+    align-self: center;
+  }
+  .header-info .header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-info .logo-display {
+    width: 328px;
+  }
+  .header-info .logo-display .atlassian {
+    top: 10px;
+    left: 114px;
+  }
+
+  .header-info .logo-display .paypal {
+    top: 99px;
+    left: 0;
+  }
+  .header-info .logo-display .weave {
+    top: 99px;
+    left: 184px;
+  }
+
+  .header-info .logo-display .calendar {
+    top: 219px;
+    left: 239px;
+  }
+
+  .header-info .logo-display .google {
+    top: 10px;
+    left: 0;
+  }
+  .header-info .logo-display .googles {
+    top: 209px;
+    left: 106px;
+  }
+
+  .header-info .logo-display .asana {
+    top: 10px;
+    left: 248px;
+  }
+
+  .features {
+    padding-bottom: 60px;
+  }
+  .features .about-front {
+    width: fit-content;
+  }
+  .features .elements {
+    flex-direction: column;
+    gap: 17px;
+  }
+  .features .elements .shape {
+    flex-direction: row;
+    width: max-content;
+  }
+  .features .elements .shape .c1:before,
+  .features .elements .shape .c1:after {
+    content: none;
+  }
+
+  .header-info .logo-display .image {
+    animation: none;
+  }
+
+  .pricing {
+    padding: 0 44px;
+    height: auto;
+  }
+  .pricing .pricing-close {
+    height: auto;
+  }
+  .pricing .pricing-def {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing .pannel-pricing {
+    width: 100%;
+    height: 397px;
+    align-items: center;
+  }
+  .pricing .pannel-pricing .price-month {
+    width: 100%;
+  }
+
+  .pricing .pannel-pricing .price-month .price {
+    justify-content: center;
+  }
+  .pricing .pricing-close {
+    width: 100%;
+    align-items: center;
+  }
+  .pricing .pricing-close .first-row,
+  .pricing .pricing-close .sec-row {
+    flex-direction: column;
+  }
+  .pricing .pricing-close .first-row div,
+  .pricing .pricing-close .sec-row div {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+    padding: 0;
+  }
+  .contact .contact-info {
+    height: auto;
+    width: auto;
+    padding: 40px 16px 20px 16px;
+  }
+  .contact .contact-info .about-contact {
+    width: 100%;
+  }
+  .contact .contact-info h2,
+  .contact .contact-info p {
+    text-align: center;
+  }
+  .contact .contact-form {
+    width: 100%;
+    padding: 30px 16px;
+  }
+  .contact .contact-info .profile-contact {
+    align-items: center;
+  }
+  .contact .contact-form .form-input .button-input button:hover {
+    background-color: #2476ff;
+    color: white;
+    cursor: default;
+    border: none;
+    transition: none;
+  }
+
+  .header-info-content .header-button .btn-play:hover {
+    animation: none;
+    background-color: #2476ff;
+    color: #fff;
+    cursor: default;
+    border: none;
+  }
+  .pricing .pannel-pricing .vid-play .btn-vid:hover {
+    background-color: #2476ff;
+    color: #fff;
+    cursor: default;
+    border: none;
+  }
+  .pricing .pannel-pricing:hover {
+    box-shadow: none;
+    cursor: default;
+  }
+  .header-info-content .header-button .btn-play:hover {
+    animation: none;
+  }
+  .pricing .pannel-pricing .vid-play .btn-vid:hover {
+    animation: none;
+  }
+ 
+  .contact .contact-form .form-input .form-label label:hover {
+    color: #677788;
+  }
+  .contact .contact-form .form-input {
+    width: 100%;
+  }
+  .contact .contact-form .form-input .form-group,
+  .contact .contact-form .form-input .form-group input[type="text"],
+  .contact .contact-form .form-input .form-group input[type="email"],
+  .contact .contact-form .form-input .form-group select,
+  .contact .contact-form .form-input .form-group textarea {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact .contact-form .form-input p {
+    align-self: flex-start;
+  }
+  .footer-content .footer-logo p {
+    font-size: 18px;
+  }
+  .footer-content .footer-links .link h2 {
+    font-size: 20px;
+  }
+  .footer-content .footer-links .link ul li {
+    font-size: 18px;
+  }
+  .footer-content {
+    padding: 80px 16px 40px 16px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+  }
+  .footer-content .footer-logo {
+    align-items: center;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-links .c1,
+  .c2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-content .footer-links .link ul li:hover {
+    font-size: 18px;
+    color: #677788;
+    cursor: default;
+  }
+}

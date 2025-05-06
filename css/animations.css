@@ -1,0 +1,66 @@
+@keyframes slide-paypall {
+  from {
+    top: 550px;
+    opacity: 0%;
+  }
+  to {
+    top: 172;
+  }
+}
+@keyframes slide-wave {
+  from {
+    top: 550px;
+    opacity: 0%;
+  }
+  to {
+    top: 172px;
+  }
+}
+@keyframes slide-calendar {
+  from {
+    top: 500px;
+    opacity: 0%;
+  }
+  to {
+    top: 310px;
+  }
+}
+@keyframes slide-atlassian {
+  from {
+    top: 430px;
+    opacity: 0%;
+  }
+  to {
+    top: 10px;
+  }
+}
+
+@keyframes asana {
+  from {
+    left: 430px;
+    opacity: 0%;
+  }
+  to {
+    left: 380px;
+  }
+}
+
+@keyframes google {
+  from {
+    left: 300px;
+    opacity: 0%;
+  }
+  to {
+    left: 64px;
+  }
+}
+
+@keyframes googles {
+  from {
+    left: 430px;
+    opacity: 0%;
+  }
+  to {
+    left: 155px;
+  }
+}
